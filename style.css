@@ -1,0 +1,109 @@
+body {
+    background-color: #CCD5D9;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    background-color: #CCD5D9;
+    color: ghostwhite;
+}
+
+.container h1, h2, h3, p {
+    margin-left: 16px;
+    font-weight: normal;
+    display: flex;
+}
+
+.container h1, h2 {
+    font-weight: bold;
+}
+
+
+.container hr{
+    margin: 16px;
+    border: 0;
+    border-top: 1px solid ghostwhite;
+}
+
+.first_column {
+    padding-top: 10px;
+    width: 400px;
+    height: 1270px;
+    background-color: #AEBFBC;
+    margin-right: 16px;
+}
+
+.photo {
+    max-width: 368px;
+    max-height: 584px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+.bar {
+    margin: 16px;
+    background-color: #CCD5D9; /* Grey background */
+}
+
+.skills {
+    text-align: right; /* Right-align text */
+    line-height: 20px; /* Set the line-height to center the text inside the skill bar, and to expand the height of the container */
+    color: darkgray; /* White text color */
+}
+
+.python {width: 100%; background-color: whitesmoke;} /* Green */
+.git {width: 100%; background-color: whitesmoke;} /* Green */
+.docker {width: 100%; background-color: whitesmoke;} /* Green */
+.go {width: 85%; background-color: whitesmoke;} /* Green */
+
+
+.english {width: 100%; background-color: whitesmoke;} /* Green */
+.german {width: 85%; background-color: whitesmoke;} /* Green */
+.rus    {width: 100%; background-color: whitesmoke;} /* Green */
+
+.second_column {
+
+}
+
+.first_part {
+    padding-top: 8px;
+    width: 800px;
+    height: 580px;
+    background-color: #AEBFBC;
+    margin-bottom: 16px;
+}
+
+.second_part {
+    padding-top: 8px;
+    width: 800px;
+    height: 400px;
+    background-color: #AEBFBC;
+}
+
+.work {
+    margin-left: 48px;
+    margin-right: 48px;
+}
+
+.logo {
+    display: flex;
+    position: absolute;
+    max-height: 50px;
+    max-width: 50px;
+    padding-top: 16px;
+    margin-left: 16px;
+}
+
+.second_column p {
+    padding-left: 70px;
+}
+
+.education {
+    margin-left: 48px;
+    margin-right: 48px;
+}
